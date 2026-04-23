@@ -5189,3 +5189,48 @@ a:active {
     font-size: 16px;
   }
 }
+
+/***** AI/R Alignment refinements *****/
+.blocks {
+  margin-top: 28px;
+}
+
+.category-content,
+.section-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.category-content .page-header,
+.section-content .page-header {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.category-content .page-header-description,
+.section-content .page-header-description {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-tree,
+.section-list,
+.section-content > .article-list {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .blocks {
+    margin-top: 18px;
+  }
+
+  .category-content .page-header,
+  .section-content .page-header {
+    align-items: flex-start;
+    text-align: left;
+  }
+}
